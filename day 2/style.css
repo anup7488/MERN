@@ -1,0 +1,113 @@
+/*
+4 thing are needed to form ua box 
+padding 
+
+*/
+.parent{
+    margin: 20px 20px 16px;
+    background-color: yellow;
+    padding:16px;
+    border: 1px solid grey;
+    width: 150px;
+
+}
+.parent {
+    p{
+    background-color: rgb(126, 28, 218);
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+span{
+    background-color: chartreuse;
+    width: fit-content;
+    text-align: center;
+    margin: auto;
+
+}
+}
+.center {
+    display: block;
+    margin-left: auto ;
+
+    margin-right: auto;
+width: 50%;
+}
+.parent{
+    font-size: 32px;
+}
+.child{
+    font-size: 2em;
+}
+.submit{
+
+    display: block;
+    padding: 16px;
+    border-radius: 28px;
+    font-size: 16px;
+    background-color: red;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+    width: auto;
+    margin-top: 5px;
+
+}
+.submit :hover{
+    opacity: 0.8;
+}
+.submit-small{
+    font-size: 30px;
+}
+body{
+    height: 50vh;
+    width: 50vw;
+    background-color: aqua;
+}
+.child{
+    width: 50%;
+    min-height: 200px;
+    overflow: scroll;
+}
+.parentt{
+    ol{
+        background-color: blue;
+    }
+    ul:first-child{
+        background-color: blueviolet;
+    }
+    ul:last-child{
+        background-color: greenyellow;
+        li:nth-child(4){
+            background-color: chocolate;
+        }
+    }
+}
+.flexbox{
+    background-color: blue;
+    display: flex;
+}
+.flex{
+    background-color: bisque;
+    border: 1px solid red;
+    width: 50px;
+}
+.parenttt{
+    background-color: aqua;
+    /* justify-content:flex-start ; */
+     display: flex;
+     height: 300px;
+     justify-content: space-evenly;
+     align-items: flex-end;
+
+}
+.child{
+border: 1px solid red;
+background-color: yellow;
+width:100px
+}
+.logo{
+    align-self: flex-start;
+    padding: 40px 10px;
+}
+
